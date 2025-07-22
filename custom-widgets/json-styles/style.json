@@ -1,0 +1,32 @@
+{
+  "ShowLogs": true,
+  "QMainWindow": [
+    {
+      "tittle": "MyApp"
+    }
+  ],
+  "QSettings": [
+    {
+      "ThemeSettings": [
+        {
+          "CustomTheme": [
+            {
+              "Background-color": "#4e0d3a",
+              "Text-color": "#d7d5dc",
+              "Accent-color": "#720d5d",
+              "Icons-color": "#d7d5dc",
+              "Theme-name": "Default-theme",
+              "Default-Theme": true
+            }
+          ]
+        }
+      ],
+      "AppSettings": {
+        "OrginizationName": "MyApp",
+        "ApplicationName": "MyApp Company",
+        "OrginizationDormain": "MyApp.org"
+      }
+    }
+  ],
+  "QtBinding": "PySide6"
+}

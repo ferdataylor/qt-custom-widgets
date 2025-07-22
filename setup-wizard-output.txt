@@ -1,0 +1,102 @@
+(qtenv) @ferdataylor ➜ /workspaces/udemy-modern-react-redux/qt/custom-widgets (main) $ Custom_Widgets --create-project
+
+# PROJECT MAKER
+# YOUTUBE: (SPINN TV) https://www.youtube.com/spinnTv
+# WEBSITE: spinncode.com
+# EMAIL: info@spinncode.com
+
+# INITIALIZING A NEW PROJECT TO:
+Current Folder: /workspaces/udemy-modern-react-redux/qt/custom-widgets
+
+#PLEASE ENTER YOUR Qt APP Qt binding/API Name:
+(Default: PySide6) (Options: PySide6, PySide2, PyQt6, PyQt5)
+
+Enter your app Qt binding/API Name: 
+Qt App Qt binding/API Name set to PySide6
+
+# PLEASE ENTER YOUR ICONS COLOR BELOW:
+You can input the color HEX value (e.g., #ffffff)
+or the color string value (e.g., white).
+
+Enter icons color: #d7d5dc
+Your icons color is #d7d5dc. Save the color and continue? [Y/n] Y
+
+# NOW ENTER ICONS COLOR FOR QT DESIGNER APP:
+NOTE: This is for design purposes only. If your Qt Designer app 
+has a dark theme, enter a light icons color (e.g., "white").
+If Qt Designer has a light theme, enter a dark icons color (e.g., "black").
+Default value will be set to #d7d5dc.
+
+Enter icons color: #d7d5dc
+Your icons color is #d7d5dc. Save the color and continue? [Y/n] Y
+
+# THIS IS FOR YOUR APP THEME:
+NOTE: Background color, text color, and accent color will be used to create your app stylesheet.
+
+Enter app background color: #4e0d3a
+Your app background color is #4e0d3a. Save the color and continue? [Y/n] Y
+Enter app text color: #d7d5dc
+Your app text color is #d7d5dc. Save the color and continue? [Y/n] Y
+Enter app accent color: #720d5d
+Your app accent color is #720d5d. Save the color and continue? [Y/n] Y
+Converting files in folder: ui
+.ui files found: interface.ui
+Done converting!
+
+Creating the JSON stylesheet file
+
+#PLEASE FILL IN THE REQUIRED DATA BELOW:
+Default value will be set to custom-widgets
+
+Enter your app name: MyApp
+Your app name is MyApp. Save the name and continue? [Y/n] Y
+
+THE FOLLOWING VALUES WILL BE USED TO SAVE YOUR APP CONFIGURATIONS SUCH AS
+APP THEME USING THE QSETTINGS CLASS:
+
+The required values are application name, organization name, and domain name.
+If left empty, your app name will be used. You can change this later
+from the JSON stylesheet file inside your project.
+
+Please enter the your organization name (Optional): 
+Please enter the your domain name. Please enter a URL i.e domain.org (Optional): 
+JSON stylesheet file created
+Successfully created requirements.txt
+Successfully created README.md
+Creating the icons (png) files
+
+Generating icons for your app. Icons color: #d7d5dc
+[==============================] 99.0% ...Done
+Generating icons for Qt Designer app. Icons color: #d7d5dc
+Icons have been created========] 99.0% ...Done
+
+
+CONGRATULATIONS! YOUR PROJECT HAS BEEN CREATED.
+
+WHAT NEXT??
+
+1. Open the interface.ui file inside your project folder using Qt designer.
+This is your main inteface file.
+
+2. Put your app customization/style inside the JSON style.json file.
+Read more here on how to use the custom widgets module 
+https://github.com/KhamisiKibet/Qt-PyQt-PySide-Custom-Widgets
+
+3. Run the main.py file to view your app. Get more tutorials 
+here on how to create awsome Qt Apps with python 
+https://www.youtube.com/spinnTv
+
+4. Your default app icons are located inside the qss/Icons folder.
+
+[The following is important only if you decide to use the theme maker]
+
+5. The default QSASS and qss stylesheet are also inside the qss folder.
+
+6. Put you own style (CSS or SCSS) inside the qss/defaultStyle.scss file.
+This style will override the default theme style. 
+
+7. The qss/_variables.scss contains your theme variables
+
+
+You can also leave this window open as you work on your project. To preview your app just click enter. The UI and QRC file will be automatically converted for you!
+Run the created project or exit the project wizard? Type yes to run the app or no to exit the wizard [Y/n] 
