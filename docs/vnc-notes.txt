@@ -1,0 +1,59 @@
+Command History
+
+sudo apt update
+sudo apt install libgl1-mesa-glx libglu1-mesa libxi6 libxmu6 libglu1-mesa-dev
+sudo apt install libxkbcommon0 libxkbcommon-x11-0 libxcb-cursor0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-randr0 libxcb-render-util0 libxcb-shape0 libxcb-xfixes0 libxcb-xinerama0
+
+# This only produces command-line print statements
+sudo apt install xvfb
+xvfb-run -a python headshot_viewer.py
+
+# Install VNC server and desktop environment
+sudo apt-get install tightvncserver xfce4 xfce4-goodies
+
+# Start VNC server
+vncserver :1 -geometry 1024x768 -depth 24
+
+
+
+# OUPUT:
+You will require a password to access your desktops.
+
+Password: 
+Verify:   
+Would you like to enter a view-only password (y/n)? n
+xauth:  file /home/codeany/.Xauthority does not exist
+
+New 'X' desktop is a49a384e4d42:1
+
+Creating default startup script /home/codeany/.vnc/xstartup
+Starting applications specified in /home/codeany/.vnc/xstartup
+Log file is /home/codeany/.vnc/a49a384e4d42:1.log
+
+
+
+# Connect via VNC client from your local machine
+# Use: your-server-ip:5901
+
+# Then run your app normally
+python3 headshot_viewer.py
+
+
+
+
+## DEBUGGING TIPS ##
+
+If you encounter any issues with the full application:
+# Run with verbose output
+xvfb-run -a python3 -v your_main_app.py
+
+# Or capture any error output
+xvfb-run -a python3 your_main_app.py 2>&1 | tee app_log.txt
+
+# Since your test GUI worked perfectly, your main application 
+# should run smoothly! The fact that the simple test completed 
+# successfully indicates that all the necessary Qt/PySide6 
+# dependencies and display configuration are working correctly 
+# on your Codeanywhere server.
+
+

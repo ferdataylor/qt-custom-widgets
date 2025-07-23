@@ -1,0 +1,198 @@
+    1  l
+    2  ll
+    3  python -V
+    4  which python
+    5  l /usr/local/python
+    6  ll
+    7  ll /usr/local/python
+    8  ll /usr/local/python/current/
+    9  ll /usr/local/python/current/bin
+   10  python3 --version && python3.9 --version
+   11  python3 --version && python3.9 --versionwhich python python3 python3.9 2>/dev/null || echo "No Python found in PATH"
+   12  sudo apt update
+   13  sudo apt install python3.9
+   14  wget https://www.python.org/ftp/python/3.9.18/Python-3.9.18.tgz
+   15  l
+   16  ll
+   17  mv Python-3.9.18.tgz /usr/local/share
+   18  sudo mv Python-3.9.18.tgz /usr/local/share
+   19  cd /usr/local/share
+   20  ll
+   21  cd ..
+   22  ll
+   23  ll src
+   24  ll etc
+   25  mv share/Python-3.9.18.tgz src
+   26  sudo mv share/Python-3.9.18.tgz src
+   27  cd src
+   28  ll
+   29  mv Python-3.9.18.tgz /tmp
+   30  sudo mv Python-3.9.18.tgz /tmp
+   31  cd /tmp
+   32  ll
+   33  tar -xf Python-3.9.18.tgz 
+   34  ll
+   35  cd Python-3.9.18/
+   36  ll
+   37  ./configure --prefix=/usr/ --enable-optimizations
+   38  make -j$(nproc)
+   39  df -u
+   40  du -h
+   41  cd /usr/local/Python
+   42  cd /usr/local
+   43  ll
+   44  cd python
+   45  ll
+   46  ls -la /usr/local/python/current
+   47  ll
+   48  sudo mkdir 3.9.18
+   49  ll
+   50  cd /tmp
+   51  sudo rm -f /usr/bin/python3.9
+   52  sudo rm -f /usr/bin/python3.9-config
+   53  sudo rm -f /usr/bin/pydoc3.9
+   54  sudo rm -f /usr/bin/idle3.9
+   55  sudo rm -f /usr/bin/pip3.9
+   56  sudo rm -rf /usr/lib/python3.9
+   57  ll /usr/share/man/man1/python
+   58  ll /usr/share/man/man1/python*
+   59  sudo ll /usr/share/man/man1/python*
+   60  ll /usr/share/man/man1
+   61  sudo rm -f /usr/lib/pkgconfig/pyton-3.9.pc
+   62  sudo rm -f /usr/lib/pkgconfig/python-3.9.pc
+   63  sudo rm -f /usr/lib/pkgconfig/python-3.9-embed.pc
+   64  l /usr/lib/pkgconfig/python*
+   65  sudo ll /usr/lib/pkgconfig/py*
+   66  sudo ls -al /usr/lib/pkgconfig/py*
+   67  ll /usr/lib/pkgconfig
+   68  l
+   69  ll
+   70  sudo make clean
+   71  cd Python-3.9.18/
+   72  sudo make clean
+   73  cd ..
+   74  sudo rm -rf Python-3.9.18
+   75  ll
+   76  sudo mkdir -p /usr/local/python/3.9.18
+   77  tar -xzf Python-3.9.18.tgz 
+   78  ll
+   79  ./configure --prefix=/usr/local/python/3.9.18 --enable-optimizations --with-ensurepip=install
+   80  cd Python-3.9.18/
+   81  sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev wget libbz2-dev
+   82  ./configure --prefix=/usr/local/python/3.9.18 --enable-optimizations --with-ensurepip=install
+   83  make -j$(nproc)
+   84  sudo make install
+   85  sudo ln -sf /usr/local/python/current
+   86  ll
+   87  l /usr/local/python
+   88  l /usr/local/python/current/bin/
+   89  python -V
+   90  l /usr/local/python/3.9.18/
+   91  ll /usr/local/python/3.9.18/
+   92  ll /usr/local/python/current
+   93  l /usr/local/python
+   94  ll /usr/local/python
+   95  cd ..
+   96  rm -rf Python-3.9.18
+   97  cd /usr/local/python
+   98  ll
+   99  cd current
+  100  ll
+  101  cd bin
+  102  ll
+  103  cd ../../3.9.18/bin
+  104  ll
+  105  cd ../..
+  106  ll
+  107  mv current current_ORIG
+  108  ln -sf /usr/local/python/3.9.18 current
+  109  cd current
+  110  ll
+  111  cd ..
+  112  ll current_ORIG/
+  113  ll
+  114  python -V
+  115  cd /usr/local/python/bin
+  116  ll
+  117  cd current
+  118  ll
+  119  cd bin
+  120  ll
+  121  sudo ln -sf python3 python
+  122  python -V
+  123  cd /workspaces/
+  124  ll
+  125  cd qt-custom-widgets/
+  126  ll
+  127  pythpythonexit
+  128  exit
+  129  source /workspaces/headshots/.venv/bin/activate
+  130  pip install --upgrade pip
+  131  pip install PySide6
+  132  lsblk
+  133  lsblk -H
+  134  lsblk -h
+  135  lsblk -a
+  136  lsblk --output-all
+  137  lsblk -h
+  138  lsblk --output=NAME,MODEL,TYPE,SIZE,MOUNTPOINT
+  139  lsblk --output=NAME,MODEL,TYPE,SIZE,FSUSED
+  140  du -ha --max-depth 1 . | sort -hr
+  141  source ~/.bashrc
+  142  cd ../headshots/
+  143  source .venv/bin/activate
+  144  du1
+  145  source ~/.bashrc
+  146  cd ../headshots/
+  147  source .venv/bin/activate
+  148  du1
+  149  du1 .
+  150  du1 /
+  151  source ~/.bashrc
+  152  cd ../headshots/
+  153  du1
+  154  source ~/.bashrc
+  155  cd ../headshots/
+  156  du1
+  157  source ~/.bashrc
+  158  cd ../headshots/
+  159  source .venv/bin/activate
+  160  exit
+  161  cd headshots
+  162  cd ../headshots
+  163  source ../venv/bin/activate
+  164  source ../qt-custom-widgets/venv/bin/activate
+  165  deactivate
+  166  ll
+  167  which python
+  168  exit
+  169  source /workspaces/headshots/.venv/bin/activate
+  170  /workspaces/headshots/.venv/bin/python /workspaces/headshots/headshot_viewer.py
+  171  sudo apt install libxkbcommon0 libxkbcommon-x11-0 libxcb-cursor0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-randr0 libxcb-render-util0 libxcb-shape0 libxcb-xfixes0 libxcb-xinerama0
+  172  /workspaces/headshots/.venv/bin/python /workspaces/headshots/headshot_viewer.py
+  173  source /workspaces/headshots/.venv/bin/activate
+  174  source /workspaces/headshots/.venv/bin/activate
+  175  /workspaces/headshots/.venv/bin/python /workspaces/headshots/headshot_viewer.py
+  176  $ cat /etc/os-release
+  177  l /etc/os-release 
+  178  cat /etc/os-release
+  179  sudo apt update
+  180  sudo apt install libgl1-mesa-glx
+  181  sudo apt install libgl1-mesa-dev
+  182  sudo apt install libgl1-mesa-glx libglu1-mesa libxi6 libxmu6 libglu1-mesa-dev
+  183  xvfb-run -a python.py
+  184  cd ../headshots/
+  185  xvfb-run -a python headshot_viewer.py 
+  186  source /workspaces/headshots/.venv/bin/activate
+  187  source /workspaces/qt-custom-widgets/venv/bin/activate
+  188  sudo apt list xvfb
+  189  sudo apt list xvfb -a
+  190  Xvfb :1 -screen 0 1024x768x24 &
+  191  xvfb :1 -screen 0 1024x768x24 &
+  192  sudo apt install xvfb
+  193  xvfb :1 -screen 0 1024x768x24 &
+  194  xvfb-run -a python ../headshots/headshot_viewer.py 
+  195  xvfb-run -a python ../headshots/test-gui.py
+  196  sudo apt-get install tightvncserver xfce4 xfce4-goodies
+  197  vncserver :1 -geometry 1024x768 -depth 24
+  198  history > codenaywhere-gui-setup.txt
