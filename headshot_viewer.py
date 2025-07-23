@@ -13,29 +13,6 @@ from PySide6.QtWidgets import (
 from PySide6.QtCore import Qt, Signal, QTimer, QObject, QThread
 from PySide6.QtGui import QPixmap, QFont, QIcon
 
-## RUNNING ON CODEANYWHERE SERVERS ##
-# -----------------------------------
-# Required Ubuntu Libs for Qt
-# $ sudo apt install \
-#      libxkbcommon0 \
-#      libxkbcommon-x11-0 \
-#      libxcb-cursor0 \
-#      libxcb-icccm4 \
-#      libxcb-image0 \
-#      libxcb-keysyms1 \
-#      libxcb-randr0 \
-#      libxcb-render-util0 \
-#      libxcb-shape0 \
-#      libxcb-xfixes0 \
-#      libxcb-xinerama0
-# 
-# - If you're runing this on a headless server or in a Docker container
-#   where you don't need actual graphics display, you can install a 
-#   virtual framebuffer:
-#     $ sudo apt install xvfb
-# - Then run your Python script with:
-#     $ xvfb-run -a python <your_script>.py
-
 # Python 3.9 compatibility check
 if sys.version_info < (3, 9):
     raise RuntimeError("This application requires Python 3.9 or higher")
